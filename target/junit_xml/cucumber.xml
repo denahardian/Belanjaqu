@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="80.993192">
+<testcase classname="login ke belanjaqu" name="Saya dapat login belanjaqu menggunakan id atau nomor handphone paytren" time="80.993192">
+<failure message="org.openqa.selenium.NoSuchSessionException: invalid session id&#10;Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'&#10;System info: host: 'DENAHARDIAN', ip: '192.168.11.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\denac\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9cb81295c9d93707b34e80988caea4fa&#10;*** Element info: {Using=xpath, value=//button[contains(text(),'LOGIN')]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:396)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;&#10;&#9;at Steps.Loginstep.sayaKlikLogin(Loginstep.java:149)&#13;&#10;&#9;at Steps.Loginstep.setOcrketemu(Loginstep.java:41)&#13;&#10;&#9;at Steps.Loginstep.sayaMengisiCaptcha(Loginstep.java:143)&#13;&#10;&#9;at ✽.And Saya mengisi captcha(Login.feature:14)&#13;&#10;"><![CDATA[Given Saya berada pada halaman belanjaqu....................................passed
+When Saya klik side bar.....................................................passed
+And Saya klik tombol login..................................................passed
+Then Sistem menampilkan halaman login.......................................passed
+Then Saya klik login dengan paytren.........................................passed
+And Saya mengisi nomor ponsel "082116515155"................................passed
+And Saya mengisi pin "100000"...............................................passed
+And Saya mengisi captcha....................................................failed
+Then Saya Klik Login........................................................skipped
+Then Berhasil login berada pada halaman utama belanjaqu.....................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DENAHARDIAN', ip: '192.168.11.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\denac\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9cb81295c9d93707b34e80988caea4fa
+*** Element info: {Using=xpath, value=//button[contains(text(),'LOGIN')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:396)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at Steps.Loginstep.sayaKlikLogin(Loginstep.java:149)
+	at Steps.Loginstep.setOcrketemu(Loginstep.java:41)
+	at Steps.Loginstep.sayaMengisiCaptcha(Loginstep.java:143)
+	at ✽.And Saya mengisi captcha(Login.feature:14)
+]]></failure>
+</testcase>
+</testsuite>
