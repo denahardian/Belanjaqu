@@ -98,15 +98,15 @@ public class Loginstep {
     @And("^Saya mengisi nomor ponsel \"([^\"]*)\"$")
     public void sayaMengisiNomorPonsel(String nomorponsel) throws Throwable {
             isiNomorPonsel = nomorponsel;
-//        try {
+        try {
         driver.findElement(By.xpath("/html/body/app-root/div/div/belanjaqu-login-paytren/div[1]/div/form/div[2]/div[2]/input")).sendKeys(nomorponsel);
-//        }
-//            catch (PendingException exception) {
-//            System.out.println(exception.getMessage());
-//            System.out.println(exception.getCause());
-//            System.out.println(exception.getStackTrace());
-//            exception.printStackTrace();
-//        }
+        }
+            catch (PendingException exception) {
+            System.out.println(exception.getMessage());
+            System.out.println(exception.getCause());
+            System.out.println(exception.getStackTrace());
+            exception.printStackTrace();
+        }
     }
 
     @And("^Saya mengisi pin \"([^\"]*)\"$")
