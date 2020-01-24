@@ -31,7 +31,6 @@ public class Loginstep {
     boolean ocrketemu = false;
     String title_pembanding = "";
     String isiNomorPonsel, isiPin;
-    String buaya;
 
 
     public void setOcrketemu() throws Throwable {
