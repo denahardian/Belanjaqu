@@ -157,35 +157,35 @@ formatter.match({
   "location": "Loginstep.sayaBeradaPadaHalamanBelanjaqu()"
 });
 formatter.result({
-  "duration": 40330920300,
+  "duration": 29376501400,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginstep.sayaKlikSideBar()"
 });
 formatter.result({
-  "duration": 244621200,
+  "duration": 1511207500,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginstep.sayaKlikTombolLogin()"
 });
 formatter.result({
-  "duration": 552446600,
+  "duration": 853898300,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginstep.sistemMenampilkanHalamanLogin()"
 });
 formatter.result({
-  "duration": 52719300,
+  "duration": 45413800,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginstep.sayaKlikLoginDenganPaytren()"
 });
 formatter.result({
-  "duration": 1485248200,
+  "duration": 1659557100,
   "status": "passed"
 });
 formatter.match({
@@ -198,7 +198,7 @@ formatter.match({
   "location": "Loginstep.sayaMengisiNomorPonsel(String)"
 });
 formatter.result({
-  "duration": 1635883400,
+  "duration": 678281900,
   "status": "passed"
 });
 formatter.match({
@@ -211,22 +211,22 @@ formatter.match({
   "location": "Loginstep.sayaMengisiPin(String)"
 });
 formatter.result({
-  "duration": 476478500,
+  "duration": 465026800,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginstep.sayaMengisiCaptcha()"
 });
 formatter.result({
-  "duration": 34487715500,
+  "duration": 30385867200,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginstep.sayaKlikLogin()"
 });
 formatter.result({
-  "duration": 1606939100,
-  "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027DENAHARDIAN\u0027, ip: \u0027192.168.11.75\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\denac\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c7aaa0cf378793e2e29f1e622eab7c6f\n*** Element info: {Using\u003dxpath, value\u003d//button[contains(text(),\u0027LOGIN\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:396)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat Steps.Loginstep.sayaKlikLogin(Loginstep.java:149)\r\n\tat ✽.Then Saya Klik Login(Login.feature:15)\r\n",
+  "duration": 1158814200,
+  "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027DENAHARDIAN\u0027, ip: \u0027192.168.11.75\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\denac\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f51504053be7a4513b4b8d942f1bbe3c\n*** Element info: {Using\u003dxpath, value\u003d//button[contains(text(),\u0027LOGIN\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:396)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat Steps.Loginstep.sayaKlikLogin(Loginstep.java:149)\r\n\tat ✽.Then Saya Klik Login(Login.feature:15)\r\n",
   "status": "failed"
 });
 formatter.match({
