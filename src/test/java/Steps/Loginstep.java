@@ -17,9 +17,9 @@ import java.io.IOException;
 import java.sql.Driver;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Date;
+    import java.util.HashMap;
+    import java.util.Map;
+    import java.util.Date;
 
 
 public class Loginstep {
@@ -120,7 +120,7 @@ public class Loginstep {
         SimpleDateFormat tgl = new SimpleDateFormat("ddMMHHmmss");
         tanggal_ = tgl.format(tanggal);
 
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         File src = driver.findElement(By.xpath("/html/body/app-root/div/div/belanjaqu-login-paytren/div[1]/div/form/div[2]/div[4]/div[1]/img")).getScreenshotAs(OutputType.FILE);
         String path = System.getProperty("user.dir") + ("/screenshoot/captcha") + tanggal_ + ".png";
         System.out.println(tanggal_);
@@ -131,7 +131,7 @@ public class Loginstep {
         image.setDatapath("C:\\Users\\denac\\IdeaProjects\\Belanjaqu_\\tessdata");
         image.setLanguage("eng");
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         String imageText = image.doOCR(new File(path));
         String fiximageText = imageText.replaceAll("[^a-z0-g]", "");
         System.out.println("captcha OCR = " + fiximageText);
@@ -161,7 +161,7 @@ public class Loginstep {
         if (driver.getTitle().equals("Akun Dashboard - Belanjaqu")) {
             Assert.assertEquals("Akun Dashboard - Belanjaqu", driver.getTitle());
             System.out.println("etdah");
-            ocrketemu = true;
+                ocrketemu = true;
             System.out.println(ocrketemu);
             Thread.sleep(10000);
             driver.close();
