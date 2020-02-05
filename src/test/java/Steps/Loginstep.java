@@ -155,7 +155,8 @@ public class Loginstep {
         @Then("^Berhasil login berada pada halaman utama belanjaqu$")
         public void berhasilLoginBeradaPadaHalamanUtamaBelanjaqu () throws Throwable {
         Thread.sleep(5000);
-
+        //halo
+            //testaksjdakl
         System.out.println(driver.getTitle());
 
         if (driver.getTitle().equals("Akun Dashboard - Belanjaqu")) {
